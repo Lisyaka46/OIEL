@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\IEL\IEL.csproj" />
+    <ProjectReference Include="..\..\InterpreterCommand\InterpreterCommand.csproj" />
+    <ProjectReference Include="..\OPLAnimation\OPLAnimation.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="UserElementsControl\OPLInley.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserElementsControl\OPLBrowserPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserElementsControl\OPLCommandViewer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CORE\Interfaces\" />
+  </ItemGroup>
+
+</Project>
