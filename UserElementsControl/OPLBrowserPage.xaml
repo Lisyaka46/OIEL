@@ -3,12 +3,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-    xmlns:IEL="clr-namespace:IEL.UserElementsControl;assembly=IEL"
+    xmlns:IEL="clr-namespace:IEL.UserElementsControl;assembly=LibraryIEL"
     x:Class="OIEL.UserElementsControl.OPLBrowserPage"
     mc:Ignorable="d" 
     d:DesignHeight="380.454" d:DesignWidth="487.727">
     <Control.Resources>
-        <ResourceDictionary Source="/IEL;component/CORE/Resources/VisualDictionary.xaml"/>
+        <ResourceDictionary Source="/LibraryIEL;component/CORE/Resources/VisualDictionary.xaml"/>
     </Control.Resources>
     <Border x:Name="BorderMain" BorderBrush="Black" BorderThickness="2,2,2,2" CornerRadius="8,8,8,8">
         <Grid x:Name="GridMain">
